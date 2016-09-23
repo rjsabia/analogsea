@@ -12,7 +12,29 @@
 
 <body>
 <!--Below is the centered image with the company logo-->
-<img src="analogsea_logo.png" class="comp-logo" alt="The Analog Sea company logo">
+	<img src="analogsea_logo.png" class="comp-logo" alt="The Analog Sea company logo">
+
+<!--The form begins below this point-->
+	<form class="signup-form" action="/signup/" method="post">
+	<legend>Sign up</legend>
+	<label for="user-email">Email</label>
+	<input type="email" name="user-email" placeholder="foo@bar.com" id="user-email" required >
+	<label for="user-password">Password</label>
+	<!--For the input below, I saw in the live code this label="false", what does that do?-->
+	<input type="password" name="user-password" label="false" placeholder="1234passw0rd" id="user-password" required>
+	<!--below this line is the actual button for the form submission-->
+	<button type="submit">Sign up</button>
+	<!--Forgot password link below-->
+	<p>
+		<a href="/forgot_password/new">Forgot password?</a>
+	</p>
+	</form>
+	<!--Below is where memebers can log in through the link--> 
+	<div class="member-login">
+		<p>"Already have an account?
+        <a href="/login">Log in</a>
+		</p>
+	</div>
 
 
 </body>
