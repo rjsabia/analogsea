@@ -20,3 +20,123 @@ body{
     margin-bottom: 30px;
     margin-left: auto;
 }
+/*signup box formating*/
+.signup{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 400px;
+	background: white;
+	border-radius: 3px;
+	padding: 40px;
+}
+legend{
+	border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    display: block;
+    /*What is this, saw it on the live site, looked it up, still dont fully understand*/
+    -webkit-padding-start: 2px;
+    -webkit-padding-end: 2px; 
+}
+.signup legend{
+	font-weight: 300;
+	text-align: center;
+	color: #565656;
+	font-size: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 45px;
+	line-height: 38px;
+	letter-spacing: 0;
+
+}
+input[type='email'], 
+input[type='password'], 
+button[type='submit']{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    border-radius: 3px;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    text-align: left;
+    height: auto;
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px; 
+    font-size: 18px;
+}
+/*What does focus do exactly*/
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    height: auto;
+}
+/*Can we go over the transitions please and webkits*/
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.signup p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.signup a:hover {
+    border-color: #999;
+    color: #777;
+}
+
+/* footer */
+.member-login {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.member-login a {
+    color: white;
+}
+
+.member-login a:hover { color: #E7F1F9 }
+
+.member-login p { margin-bottom: 40px }
