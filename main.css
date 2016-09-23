@@ -1,0 +1,22 @@
+body *{
+	box-sizing: border-box;
+}
+body{
+	/*Question for mentor, I finaly looked at the live site to find the font type because 
+	I couldn't find a match. My question is why did they list three font types, and why does this work.*/
+	font-family: 'Roboto', helvetica, sans-serif;
+	background: #298eea;
+	padding: 0;
+	margin: 0;
+	display: block;
+	padding-top: 60px;
+}
+.comp-logo{
+	display: block;
+	height: 35px;
+	width: auto;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
