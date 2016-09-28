@@ -1,4 +1,4 @@
-body *{
+body * {
 	box-sizing: border-box;
 }
 body{
@@ -8,39 +8,32 @@ body{
 	background: #298eea;
 	padding: 0;
 	margin: 0;
-	display: block;
+	/*display: block;*/
 	padding-top: 60px;
 }
 .comp-logo{
 	display: block;
 	height: 35px;
-	width: auto;
-	margin-top: 0px;
+	/*width: auto;*/
+	/*margin-top: 0px;
     margin-right: auto;
     margin-bottom: 30px;
-    margin-left: auto;
+    margin-left: auto;*/
+    margin: 0 auto 30px auto;
 }
 /*signup box formating*/
 .signup{
-	margin-right: auto;
+/*	margin-right: auto;
 	margin-left: auto;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
+	margin: 0 auto;
 	width: 400px;
 	background: white;
 	border-radius: 3px;
 	padding: 40px;
 }
-legend{
-	border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    display: block;
-    /*What is this, saw it on the live site, looked it up, still dont fully understand*/
-    -webkit-padding-start: 2px;
-    -webkit-padding-end: 2px; 
-}
+
 .signup legend{
 	font-weight: 300;
 	text-align: center;
@@ -51,7 +44,7 @@ legend{
 	margin-top: 0px;
 	margin-bottom: 45px;
 	line-height: 38px;
-	letter-spacing: 0;
+	/*letter-spacing: 0;*/
 
 }
 input[type='email'], 
@@ -64,16 +57,19 @@ button[type='submit']{
     margin-bottom: 20px;
     margin-left: auto;
     border-radius: 3px;
-    transition-property: opacity;
-    transition-duration: 0.5s;
+/*    transition-property: opacity;
+    transition-duration: 0.5s;*/
+    opacity: .5;
+    transition: opacity .5s ease;
     text-align: left;
-    height: auto;
+    /*height: auto;*/
     background: #fcfcfc;
     border: 2px solid #e7e7e7;
-    padding-top: 15px;
+/*    padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    padding-left: 15px; 
+    padding-left: 15px; */
+    padding: 15px;
     font-size: 18px;
 }
 /*What does focus do exactly*/
@@ -82,6 +78,7 @@ input[type='password']:focus,
 button[type='submit']:focus {
     border-color: #E7E7E7;
     box-shadow: none;
+    opacity: 1;
 }
 
 button[type='submit'] {
@@ -93,7 +90,7 @@ button[type='submit'] {
     text-align: center;
     cursor: pointer;
     margin-bottom: 0;
-    height: auto;
+    /*height: auto;*/
 }
 /*Can we go over the transitions please and webkits*/
 button:hover[type='submit'] {
